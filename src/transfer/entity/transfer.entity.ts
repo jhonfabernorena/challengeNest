@@ -9,6 +9,9 @@ export class Transfer{
     @Prop({required: true})
     name: string;
 
+    @Prop({required: true})
+    lastname: string;
+
     @Prop({required: true, unique: true})
     numberAccount: number;
 

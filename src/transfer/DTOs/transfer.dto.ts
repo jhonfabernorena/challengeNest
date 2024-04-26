@@ -10,6 +10,10 @@ export class TransferDto {
     name: string;
 
     @IsNotEmpty()
+    @IsString()
+    lastname: string;
+
+    @IsNotEmpty()
     @IsNumber()
     numberAccount: number;
 

@@ -1,73 +1,34 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Bank Transfer Management System with NestJS
+This challenge is an application developed with NestJS that provides a basic CRUD for bank account management. It allows creating, deleting, updating, and retrieving bank accounts, as well as obtaining a list of all created accounts.
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Components
+- Service: Performs CRUD operations on bank transfers and communicates with the database.
+- Controller: Generates endpoints to access the API for managing bank transfers.
+- DTO: Data Transfer Objects for receiving transfer information and returning transfer details.
+- Entity: Represents the core data structure for a bank transfer.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
+## Repository Installation:
+Clone this repository to your local machine to access the challenge files, using the following command:
 
 ```bash
-$ npm install
+git clone -b main https://github.com/jhonfabernorena/challengeNest
 ```
 
-## Running the app
-
+## Execution
+1. Open the terminal, either manually by selecting 'Terminal > New Terminal' or by using the keyboard shortcut CTRL + SHIFT + Ñ.
+2. Run the project using the command:
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+npm run start:dev 
 ```
 
-## Test
+### API requests
+These requests will allow you to interact with the system to perform various operations in the API, such as querying an account by its ID, viewing all accounts, deleting accounts, among others.
 
-```bash
-# unit tests
-$ npm run test
+As an alternative, you will be able to access each of the queries through Postman, where you will have the opportunity to interact with the program efficiently.
 
-# e2e tests
-$ npm run test:e2e
+[Go to Postman](https://www.postman.com/maintenance-operator-95682430/workspace/nestjs/collection/33425968-8a259281-8fd5-49b6-9dbe-57fec573a8f3?action=share&creator=33425968)
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
+## Contribution:
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+If you have any ideas to improve these exercises, please submit a pull request or contact me via email.

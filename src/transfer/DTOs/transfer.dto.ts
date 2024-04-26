@@ -1,11 +1,9 @@
 import { IsNotEmpty, IsNumber, IsString } from "class-validator";
 
-
-export class transferDto {  
-    
+export class TransferDto {  
     @IsNotEmpty()
     @IsString()
-    readonly id: number; 
+    id: number; 
 
     @IsNotEmpty()
     @IsString()
@@ -17,10 +15,5 @@ export class transferDto {
 
     @IsNotEmpty()
     @IsNumber()
-    amount: number;
-
-    @IsNotEmpty()
-    @IsString()
-    destinyId: number
-
+    balance: number;
 }
